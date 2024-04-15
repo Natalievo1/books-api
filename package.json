@@ -1,0 +1,27 @@
+{
+  "name": "books-api",
+  "version": "1.0.0",
+  "description": "Restful Books API Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natalievo1/books-api.git"
+  },
+  "author": "Natalie Ojeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natalievo1/books-api/issues"
+  },
+  "homepage": "https://github.com/Natalievo1/books-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1"
+  }
+}
